@@ -1,0 +1,19 @@
+div ol {
+  margin-left: 50px;
+}
+div li {
+  border-style: "solid 1px";
+  font-style: "Times New Roman";
+  font-size: 20px;
+}
+
+.txt, .t1 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.t1 {
+  padding: 5px;
+}
+
+/*# sourceMappingURL=index.css.map */

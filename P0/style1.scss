@@ -1,0 +1,27 @@
+    // @import "colors";
+    // @import "variables";
+
+$myBlue: rgb(80, 104, 107);
+$fon: "Times New Roman";
+$bord_style: "solid 1px"; 
+
+div {
+    ol {
+        // background-color: $myBlue;
+        margin-left: 50px;
+    }
+    li {
+        border-style: $bord_style;
+        font-style: $fon;
+        font-size: 20px;
+    }
+  }
+
+.txt {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.t1 {
+    @extend .txt;
+    padding: 5px;
+}
